@@ -1,0 +1,3 @@
+# HomeworkInZUCC
+
+record my learnin😋
