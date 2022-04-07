@@ -1,3 +1,3 @@
-# HomeworkInZUCC
+# Homework_In_ZUCC
 
-record my learnin😋
+record my learning😋
