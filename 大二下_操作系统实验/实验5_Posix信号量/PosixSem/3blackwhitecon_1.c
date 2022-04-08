@@ -13,11 +13,11 @@ void* thread_white_fun(void *arg)
 	
 	for(i = 0;i < 3;i++)
 	{
-		//sem_wait(&sem_id1);
+		sem_wait(&sem_id1);
 		printf("thread_white have the semaphore\n");
 		number++;usleep(100);
 		printf("white number = %d\n",number);
-		//sem_post(&sem_id2);
+		sem_post(&sem_id2);
 		usleep(100);
 	}
 	
@@ -28,11 +28,11 @@ void* thread_black_fun(void *arg)
 	
 	for(i = 0;i < 3;i++)
 		{
-			//sem_wait(&sem_id2);
+			sem_wait(&sem_id2);
 			printf("thread_black have the semaphore \n");
 			number--;usleep(100);
 			printf("black number = %d\n",number);
-			//sem_post(&sem_id1);
+			sem_post(&sem_id1);
 			usleep(100);
 		}
 	
@@ -41,8 +41,12 @@ int main(int argc,char *argv[])
 {
 	number = 0;
 	pthread_t id1, id2;
+	/*old*/
 	sem_init(&sem_id1, 0, 1); // 空闲的
 	sem_init(&sem_id2, 0, 0); // 忙的
+	/*new*/
+	//sem_init(&sem_id1, 0, 0); // 忙的
+	//sem_init(&sem_id2, 0, 1); // 空闲的
 	pthread_create(&id1,NULL,thread_white_fun, NULL);
 	pthread_create(&id2,NULL,thread_black_fun, NULL);
 	pthread_join(id1,NULL);
