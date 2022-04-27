@@ -1,0 +1,57 @@
+[System]
+Name='zzl1888'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=15
+AndMethod='prod'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='E'
+Range=[0 1]
+NumMFs=3
+MF1='NB':'trimf',[-0.4 0 0.112433862433862]
+MF2='ZE':'trimf',[-0.00397 0.0886 0.398148148148148]
+MF3='PB':'trimf',[0.10978835978836 1 1.4]
+
+[Input2]
+Name='dE'
+Range=[-3 3]
+NumMFs=5
+MF1='NB':'trimf',[-4.5 -3 -1.5]
+MF2='NM':'trimf',[-3 -1.5 0]
+MF3='ZE':'trimf',[-1.5 0 1.5]
+MF4='PM':'trimf',[0 1.5 3]
+MF5='PB':'trimf',[1.5 3 4.5]
+
+[Output1]
+Name='output1'
+Range=[-1 1]
+NumMFs=5
+MF1='NB':'trimf',[-1.5 -1 -0.5]
+MF2='NM':'trimf',[-1 -0.5 0]
+MF3='ZE':'trimf',[-0.5 0 0.5]
+MF4='PM':'trimf',[0 0.5 1]
+MF5='PB':'trimf',[0.5 1 1.5]
+
+[Rules]
+1 1, 3 (1) : 1
+1 2, 3 (1) : 1
+1 3, 3 (1) : 1
+1 4, 3 (1) : 1
+1 5, 3 (1) : 1
+2 5, 2 (1) : 1
+2 4, 4 (1) : 1
+2 3, 4 (1) : 1
+2 2, 2 (1) : 1
+2 1, 2 (1) : 1
+3 1, 1 (1) : 1
+3 2, 1 (1) : 1
+3 3, 5 (1) : 1
+3 4, 5 (1) : 1
+3 5, 1 (1) : 1
