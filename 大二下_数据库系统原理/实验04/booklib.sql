@@ -92,3 +92,18 @@ VALUES
 '2013-01-01',
 null);
 
+CREATE TABLE `beanbooklendrecord_backup` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `readerid` varchar(20) NOT NULL,
+  `bookBarcode` varchar(20) NOT NULL,
+  `lendDate` datetime NOT NULL,
+  `returnDate` datetime DEFAULT NULL,
+  `lendOperUserid` varchar(20) NOT NULL,
+  `returnOperUserid` varchar(20) DEFAULT NULL,
+  `penalSum` double DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `fk_book_idx_backup` (`bookBarcode`),
+  KEY `fk_reader_idx_backup` (`readerid`),
+  KEY `fk_lendOper_idx_backup` (`lendOperUserid`),
+  KEY `fk_returnOper_idx_backup` (`returnOperUserid`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;

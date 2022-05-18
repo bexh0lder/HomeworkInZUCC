@@ -66,7 +66,7 @@ int main(int argc,char *argv[])
 	writer 的主循环
 	************************************************************/ 
 	while(1){ 
-		char input[3]; 
+		/*char input[3]; 
 		 
 		printf("\n menu \n 1.send a message \n"); 
 		printf(" 2.quit \n"); 
@@ -77,7 +77,8 @@ int main(int argc,char *argv[])
 		switch(input[0]){ 
 			case '1':write(shmid,semid,buffer);break; 
 			case '2':exit(0);break; 
-		} 
+		}*/
+		write(shmid,semid,buffer);
 	} 
 }
 void locksem(int semid,int semnum){ 
@@ -107,12 +108,12 @@ void waitzero(int semid,int semnum){
 	mysemop(semid,&sb,1);  
 } 
 void write(int shmid,int semid,char *buffer){ 
-	printf("\n wait for reader to read in information ..."); 
+	printf("\n waiting for client...\n"); 
 	fflush(stdout); 
 	 
 	locksem(semid,SN_READ); 
-	printf("finish \n"); 	 
-	printf("please input information: "); 
+	//printf("finish \n"); 	 
+	printf("Enter some text: "); 
 	fgets(buffer,BUFFERSIZE,stdin); 
 	unlocksem(semid,SN_WRITE); 
 } 

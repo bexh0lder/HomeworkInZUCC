@@ -87,14 +87,10 @@ int main()
 	/*********************************************************** 
 	reader 的主循环
 	************************************************************/ 
-	 
 	while(1){ 
-		printf(" \n wait for the producer's output information ..."); 
-		fflush(stdout); 
-		 
-		locksem(semid,SN_WRITE); 
-		printf(" finish \n"); 		 
-		printf(" received information: %s \n",buffer); 
+		locksem(semid,SN_WRITE); 	 
+		printf("You wrote:  %s \n",buffer); 
+		//sleep( rand() % 4 );
 		unlocksem(semid,SN_READ); 
 	} 
 }
