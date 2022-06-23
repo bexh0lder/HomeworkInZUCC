@@ -83,9 +83,9 @@ public static void main(String[] args) {
 }
 ```
 
-![image-20220513114243906](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220513114243906.png)
+![image-20220513114243906](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220513114243906.png)
 
-![image-20220513114249198](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220513114249198.png)
+![image-20220513114249198](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220513114249198.png)
 
 ### 2、 利用Statement对象进行数据添加。
 
@@ -158,17 +158,17 @@ public void createPublisher(BeanPublisher p) throws BaseException {
 }
 ```
 
-![image-20220513132735997](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220513132735997.png)
+![image-20220513132735997](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220513132735997.png)
 
 ### 3、 利用insert语句添加数据时，未指定字段值处理。
 
 第一步：将数据库表beanreadertype的readerTypeId的自动递增属性去掉。
 
-![img](https://gitee.com/bexh0lder/image-host/raw/master/img/wps1.jpg) 
+![img](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/wps1.jpg) 
 
 第二步：运行图书管理系统，打开读者类别管理界面，并尝试添加一个读者类别；系统将会报一个错误，请分析说明错误原因。
 
-![image-20220513134333946](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220513134333946.png)
+![image-20220513134333946](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220513134333946.png)
 
 错误原因：报错内容信息是readerTypeld字段没有默认值，在将字段的自增属性取消后，插入新记录时,不会再自动地创建readerTypeld字段的值，所以报错
 
@@ -223,7 +223,7 @@ public void createReaderType(BeanReaderType rt) throws BaseException {
 }
 ```
 
-![image-20220513135820479](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220513135820479.png)
+![image-20220513135820479](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220513135820479.png)
 
 ### 4、 利用PreparedStatement对象进行数据修改。
 
@@ -285,9 +285,9 @@ public static void main(String[] args) {
 }
 ```
 
- ![image-20220513115451806](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220513115451806.png)
+ ![image-20220513115451806](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220513115451806.png)
 
- ![image-20220513115433945](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220513115433945.png)
+ ![image-20220513115433945](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220513115433945.png)
 
  
 
@@ -369,7 +369,7 @@ public static void main(String[] args) {
 
 executeUpdate 的返回值是一个整数（int），指示受影响的行数（即更新计数），如果没有修改成功则返回值不会大于0，所以可以通过返回值来确定是否修改成功
 
-![image-20220513142410127](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220513142410127.png)
+![image-20220513142410127](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220513142410127.png)
 
 ### 5、 Delete语句的执行。修改用户管理类中的用户删除方法，用删除数据库表中数据的形式代替现有软删除模式。
 
@@ -411,7 +411,7 @@ public void deleteUser(String userid) throws BaseException {
 }
 ```
 
-![image-20220513144333682](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220513144333682.png)
+![image-20220513144333682](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220513144333682.png)
 
 B、如果对删除函数进行限制，要求不能删除已经有过借阅操作的用户。应如何修改代码。提示：可参考读者管理类中的读者类别删除方法。
 
@@ -491,7 +491,7 @@ public static void main(String[] args) {
 }
 ```
 
-![image-20220513165335235](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220513165335235.png)
+![image-20220513165335235](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220513165335235.png)
 
 ### 6、 **(修改)**在数据库中建立一张BeanBookLendRecord_backup表，用于保存已经归还图书的借阅记录。其表结构与BeanBookLendRecord表完全一致。要求在借阅管理类中，增加方法，实现已经归还数据的备份功能（备份完成后，在原表中删除备份成功的数据）。提示：注意事务控制。
 
@@ -517,7 +517,7 @@ CREATE TABLE `beanbooklendrecord_backup` (
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 ```
 
-![image-20220513200007334](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220513200007334.png)
+![image-20220513200007334](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220513200007334.png)
 
 B 请提供备份函数代码
 
@@ -559,11 +559,11 @@ B 请提供备份函数代码
 
 备份前
 
-![image-20220515143938565](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220515143938565.png)
+![image-20220515143938565](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220515143938565.png)
 
 备份后
 
-![image-20220515144005879](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220515144005879.png)
+![image-20220515144005879](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220515144005879.png)
 
 ### 7、 如果需要记录图书的入库时间（需要包含时分秒），应如何修改数据库表结构和相关代码？
 
@@ -575,7 +575,7 @@ B 请提供备份函数代码
 alter table beanbook add storagetime datetime default null;
 ```
 
-![image-20220513201503184](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220513201503184.png)
+![image-20220513201503184](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220513201503184.png)
 
 修改代码
 
@@ -742,4 +742,4 @@ alter table beanbook add storagetime datetime default null;
   }
   ```
 
-  ![image-20220513213023143](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220513213023143.png)
+  ![image-20220513213023143](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220513213023143.png)

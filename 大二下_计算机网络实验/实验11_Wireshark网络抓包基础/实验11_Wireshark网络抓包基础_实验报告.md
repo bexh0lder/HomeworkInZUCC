@@ -31,7 +31,7 @@
 
 【实验结果与分析】
 
-![image-20220506091931070](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220506091931070.png)
+![image-20220506091931070](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220506091931070.png)
 
 ### 2、**在Wireshark中创建并设置以下普通过滤规则**
 
@@ -41,9 +41,9 @@
 
  空白字符
 
-![image-20220507143042644](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220507143042644.png)
+![image-20220507143042644](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220507143042644.png)
 
-![image-20220507143210966](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220507143210966.png)
+![image-20220507143210966](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220507143210966.png)
 
 #### 2.2 捕获本地主机收到和发出的所有ARP包
 
@@ -53,9 +53,9 @@
 arp
 ```
 
-![image-20220507143254931](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220507143254931.png)
+![image-20220507143254931](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220507143254931.png)
 
-![image-20220507143352327](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220507143352327.png)
+![image-20220507143352327](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220507143352327.png)
 
 #### 2.3 捕获局域网上所有的ICMP包
 
@@ -65,7 +65,7 @@ arp
 icmp
 ```
 
-![image-20220507143450985](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220507143450985.png)
+![image-20220507143450985](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220507143450985.png)
 
 ![image-20220507143514524](C:\Users\Bexh0lder\AppData\Roaming\Typora\typora-user-images\image-20220507143514524.png)
 
@@ -77,9 +77,9 @@ icmp
 ether host D8:12:65:4D:0D:11
 ```
 
-![image-20220507145041941](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220507145041941.png)
+![image-20220507145041941](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220507145041941.png)
 
-![image-20220507145037094](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220507145037094.png)
+![image-20220507145037094](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220507145037094.png)
 
 #### 2.5 捕获本地主机收到和发出的HTTP包
 
@@ -89,7 +89,7 @@ ether host D8:12:65:4D:0D:11
 http
 ```
 
- ![image-20220507145950922](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220507145950922.png)
+ ![image-20220507145950922](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220507145950922.png)
 
  
 
@@ -116,9 +116,9 @@ ether[12:2]<=1500
 
 【实验结果与分析】
 
-![image-20220507154659365](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220507154659365.png)
+![image-20220507154659365](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220507154659365.png)
 
-![image-20220507154713757](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220507154713757.png)
+![image-20220507154713757](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220507154713757.png)
 
 | 长度（字节） |             2             |             2             |               1               |               1               |               2               |
 | :----------: | :-----------------------: | :-----------------------: | :---------------------------: | :---------------------------: | :---------------------------: |
@@ -134,9 +134,9 @@ ether[12:2]<=1500
 
 【实验结果与分析】
 
-![image-20220507161547253](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220507161547253.png)
+![image-20220507161547253](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220507161547253.png)
 
-![image-20220507162218568](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220507162218568.png)
+![image-20220507162218568](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220507162218568.png)
 
 
 
@@ -151,7 +151,7 @@ ether[12:2]<=1500
 
 【实验结果与分析】
 
-![image-20220507162915292](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220507162915292.png)
+![image-20220507162915292](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220507162915292.png)
 
 | 长度（位bit） |        4        |             4             |                     8                     |              16              |           16           |       3       |
 | ------------- | :-------------: | :-----------------------: | :---------------------------------------: | :--------------------------: | :--------------------: | :-----------: |

@@ -29,7 +29,7 @@
 udp
 ```
 
-![image-20220512092333829](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220512092333829.png)
+![image-20220512092333829](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220512092333829.png)
 
 #### 1.2 捕获本地主机收到和发出的所有FTP数据包
 
@@ -40,7 +40,7 @@ tcp port 21 || tcp port 20
 tcp port 2007
 ```
 
-![image-20220512164100197](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220512164100197.png)
+![image-20220512164100197](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220512164100197.png)
 
 #### 1.3 捕获本地主机和某一主机之间的远程桌面控制数据包（TCP端口3389）
 
@@ -64,7 +64,7 @@ host www.baidu.com
 
 【实验结果与分析】
 
-![image-20220512190004169](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220512190004169.png)
+![image-20220512190004169](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220512190004169.png)
 
 | 长度 |        2字节        |           2字节            |    2字节     |      2字节       |  长度可变  |
 | :--: | :-----------------: | :------------------------: | :----------: | :--------------: | :--------: |
@@ -75,7 +75,7 @@ host www.baidu.com
 
 【实验结果与分析】
 
-![image-20220512194750257](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220512194750257.png)
+![image-20220512194750257](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220512194750257.png)
 
 | 长度 |        16位         |            16位            |
 | :--: | :-----------------: | :------------------------: |
@@ -104,7 +104,7 @@ host www.baidu.com
 | 字段 | Window size(窗口大小) | Checksum(校检和) | 紧急指针 |
 |  值  |         1021          |      0x2cf7      |    0     |
 
-![image-20220512201053945](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220512201053945.png)
+![image-20220512201053945](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220512201053945.png)
 
 ![Wireshark网络协议分析：图文解读FTP数据报文_数据_03](https://s6.51cto.com/images/blog/202112/30105425_61cd1f61d295610205.jpg?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
 
@@ -116,7 +116,7 @@ host www.baidu.com
 
 【实验结果与分析】
 
-![image-20220512202333280](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220512202333280.png)
+![image-20220512202333280](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220512202333280.png)
 
 客户端：10.67.137.140
 
@@ -130,7 +130,7 @@ host www.baidu.com
   - GET
   - POST
 
-![image-20220512203918731](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220512203918731.png)
+![image-20220512203918731](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220512203918731.png)
 
 - 响应标头
   - Bdpagetype 页面类型
@@ -149,7 +149,7 @@ host www.baidu.com
   - X-Frame-Options 用来给浏览器指示允许一个页面可否在frame、ifram、embed或者object中展现的标记。站点可以通过确保网站没有被嵌入到别人的站点里面，从而避免[点击劫持](https://developer.mozilla.org/en-US/docs/Web/Security/Types_of_attacks#click-jacking)攻击
   - X-Ua-Compatible 可以指定网页的兼容性模式设置
 
-![image-20220512203952364](https://gitee.com/bexh0lder/image-host/raw/master/img/image-20220512203952364.png)
+![image-20220512203952364](https://bex-image.oss-cn-hangzhou.aliyuncs.com/img/image-20220512203952364.png)
 
 ## 三. 讨论、心得
 
