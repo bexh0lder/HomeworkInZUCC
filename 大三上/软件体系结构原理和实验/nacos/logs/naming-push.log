@@ -1,0 +1,49 @@
+2022-10-27 15:59:11,884 INFO DEFAULT_GROUP@@gateway is changed, add it to push queue.
+
+2022-10-27 15:59:11,916 INFO serviceName: DEFAULT_GROUP@@gateway changed, schedule push for: 172.20.16.1:59988, agent: Nacos-Java-Client:v1.4.2, key: 172.20.16.1,59988,169297078504600
+
+2022-10-27 15:59:11,916 INFO send udp packet: 172.20.16.1,59988,169297078504600
+
+2022-10-27 15:59:11,916 INFO serviceName: DEFAULT_GROUP@@gateway changed, schedule push for: 172.20.16.1:59988, agent: Nacos-Java-Client:v1.4.2, key: 172.20.16.1,59988,169297078504600
+
+2022-10-27 15:59:11,916 INFO send udp packet: 172.20.16.1,59988,169297078504600
+
+2022-10-27 15:59:11,952 INFO received ack: {"type": "push-ack", "lastRefTime":"169297078504600", "data":""} from: 172.20.16.1:59988, cost: 36 ms, unacked: 0, total push: 1
+
+2022-10-27 15:59:11,952 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.20.16.1,59988,169297078504600, ack json: {"type": "push-ack", "lastRefTime":"169297078504600", "data":""}
+	at com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:677)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-27 15:59:34,233 INFO DEFAULT_GROUP@@payment is changed, add it to push queue.
+
+2022-10-27 15:59:34,234 INFO serviceName: DEFAULT_GROUP@@payment changed, schedule push for: 172.20.16.1:55865, agent: Nacos-Java-Client:v1.4.2, key: 172.20.16.1,55865,169319409982300
+
+2022-10-27 15:59:34,234 INFO send udp packet: 172.20.16.1,55865,169319409982300
+
+2022-10-27 15:59:34,239 INFO received ack: {"type": "push-ack", "lastRefTime":"169319409982300", "data":""} from: 172.20.16.1:55865, cost: 5 ms, unacked: 0, total push: 2
+
+2022-10-27 15:59:37,421 INFO DEFAULT_GROUP@@warehouse is changed, add it to push queue.
+
+2022-10-27 15:59:37,422 INFO serviceName: DEFAULT_GROUP@@warehouse changed, schedule push for: 172.20.16.1:55866, agent: Nacos-Java-Client:v1.4.2, key: 172.20.16.1,55866,169322598330700
+
+2022-10-27 15:59:37,422 INFO send udp packet: 172.20.16.1,55866,169322598330700
+
+2022-10-27 15:59:37,427 INFO received ack: {"type": "push-ack", "lastRefTime":"169322598330700", "data":""} from: 172.20.16.1:55866, cost: 5 ms, unacked: 0, total push: 3
+
+2022-10-27 15:59:42,998 INFO DEFAULT_GROUP@@account is changed, add it to push queue.
+
+2022-10-27 15:59:42,999 INFO serviceName: DEFAULT_GROUP@@account changed, schedule push for: 172.20.16.1:55867, agent: Nacos-Java-Client:v1.4.2, key: 172.20.16.1,55867,169328175389100
+
+2022-10-27 15:59:42,999 INFO send udp packet: 172.20.16.1,55867,169328175389100
+
+2022-10-27 15:59:43,003 INFO received ack: {"type": "push-ack", "lastRefTime":"169328175389100", "data":""} from: 172.20.16.1:55867, cost: 4 ms, unacked: 0, total push: 4
+
+2022-10-27 15:59:46,924 INFO DEFAULT_GROUP@@security is changed, add it to push queue.
+
+2022-10-27 15:59:46,925 INFO serviceName: DEFAULT_GROUP@@security changed, schedule push for: 172.20.16.1:55868, agent: Nacos-Java-Client:v1.4.2, key: 172.20.16.1,55868,169332100953500
+
+2022-10-27 15:59:46,925 INFO send udp packet: 172.20.16.1,55868,169332100953500
+
+2022-10-27 15:59:46,930 INFO received ack: {"type": "push-ack", "lastRefTime":"169332100953500", "data":""} from: 172.20.16.1:55868, cost: 5 ms, unacked: 0, total push: 5
+

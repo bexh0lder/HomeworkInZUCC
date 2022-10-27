@@ -1,0 +1,28 @@
+2022-10-25 09:59:36,529 WARN isQuickStart:false
+
+2022-10-25 09:59:36,749 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [select 1 from config_info_beta limit 1]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "1" at line 1, column 38.;caused: Syntax error: Encountered "1" at line 1, column 38.;caused: Syntax error: Encountered "1" at line 1, column 38.;
+
+2022-10-25 09:59:36,749 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [select 1 from config_info_tag limit 1]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "1" at line 1, column 37.;caused: Syntax error: Encountered "1" at line 1, column 37.;caused: Syntax error: Encountered "1" at line 1, column 37.;
+
+2022-10-25 10:09:36,795 ERROR [db-error] sql : delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY, args : [2022-09-25 10:09:36.0, 1000], error : org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+
+2022-10-25 10:19:36,805 ERROR [db-error] sql : delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY, args : [2022-09-25 10:19:36.0, 1000], error : org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+
+2022-10-25 10:29:36,820 ERROR [db-error] sql : delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY, args : [2022-09-25 10:29:36.0, 1000], error : org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+
+2022-10-25 10:39:36,840 ERROR [db-error] sql : delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY, args : [2022-09-25 10:39:36.0, 1000], error : org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+
+2022-10-25 10:49:36,861 ERROR [db-error] sql : delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY, args : [2022-09-25 10:49:36.0, 1000], error : org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+
+2022-10-25 10:59:36,870 ERROR [db-error] sql : delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY, args : [2022-09-25 10:59:36.0, 1000], error : org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+
+2022-10-25 11:09:35,641 WARN isQuickStart:false
+
+2022-10-25 11:09:35,866 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [select 1 from config_info_beta limit 1]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "1" at line 1, column 38.;caused: Syntax error: Encountered "1" at line 1, column 38.;caused: Syntax error: Encountered "1" at line 1, column 38.;
+
+2022-10-25 11:09:35,868 ERROR [db-error] DataAccessException : caused: StatementCallback; bad SQL grammar [select 1 from config_info_tag limit 1]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "1" at line 1, column 37.;caused: Syntax error: Encountered "1" at line 1, column 37.;caused: Syntax error: Encountered "1" at line 1, column 37.;
+
+2022-10-25 11:19:35,892 ERROR [db-error] sql : delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY, args : [2022-09-25 11:19:35.0, 1000], error : org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+
+2022-10-25 13:31:46,785 ERROR [db-error] sql : delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY, args : [2022-09-25 13:31:46.0, 1000], error : org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; nested exception is java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+

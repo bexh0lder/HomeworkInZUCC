@@ -1,0 +1,20 @@
+2022-10-27 15:59:10,865 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.146:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-10-27 15:59:10,867 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.20.146:8080_true,
+
+2022-10-27 15:59:33,231 INFO DEFAULT_GROUP@@payment {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.146:18004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-10-27 15:59:33,231 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@payment, ips: 192.168.20.146:18004_true,
+
+2022-10-27 15:59:36,411 INFO DEFAULT_GROUP@@warehouse {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.146:18016:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-10-27 15:59:36,411 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@warehouse, ips: 192.168.20.146:18016_true,
+
+2022-10-27 15:59:41,988 INFO DEFAULT_GROUP@@account {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.146:18041:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-10-27 15:59:41,988 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@account, ips: 192.168.20.146:18041_true,
+
+2022-10-27 15:59:45,916 INFO DEFAULT_GROUP@@security {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.146:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-10-27 15:59:45,916 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@security, ips: 192.168.20.146:8301_true,
+
