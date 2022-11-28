@@ -1,0 +1,74 @@
+2022-11-16 14:54:53,433 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.51:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 14:54:53,434 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 192.168.20.51:8080_true,
+
+2022-11-16 14:56:30,389 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.20.51:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 14:56:30,389 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 
+
+2022-11-16 14:56:48,747 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.51:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 14:56:48,747 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 192.168.20.51:8080_true,
+
+2022-11-16 14:57:20,611 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.20.51:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 14:57:20,611 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 
+
+2022-11-16 14:59:45,974 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.51:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 14:59:45,974 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 192.168.20.51:8080_true,
+
+2022-11-16 15:01:33,859 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.20.51:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 15:01:33,859 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 
+
+2022-11-16 15:05:07,981 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-11-16 16:34:48,250 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.51:9090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 16:34:48,252 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 192.168.20.51:9090_true,
+
+2022-11-16 16:38:00,617 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.20.51:9090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 16:38:00,617 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 
+
+2022-11-16 16:38:18,116 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.51:9090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 16:38:18,116 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 192.168.20.51:9090_true,
+
+2022-11-16 16:38:54,328 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.20.51:9090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 16:38:54,328 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 
+
+2022-11-16 16:40:53,500 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.51:9090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 16:40:53,500 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 192.168.20.51:9090_true,
+
+2022-11-16 16:41:15,533 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.20.51:9090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 16:41:15,533 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 
+
+2022-11-16 16:41:32,947 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.51:9090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 16:41:32,947 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 192.168.20.51:9090_true,
+
+2022-11-16 16:41:44,180 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.20.51:9090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 16:41:44,180 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 
+
+2022-11-16 16:42:00,438 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.51:9090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 16:42:00,438 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 192.168.20.51:9090_true,
+
+2022-11-16 16:42:34,835 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.20.51:9090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 16:42:34,835 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 
+
+2022-11-16 16:42:48,523 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.20.51:9090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 16:42:48,523 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 192.168.20.51:9090_true,
+
+2022-11-16 16:42:51,993 INFO DEFAULT_GROUP@@coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.20.51:9090:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-11-16 16:42:51,993 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@coupon, ips: 
+
