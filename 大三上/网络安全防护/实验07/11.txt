@@ -1,0 +1,15 @@
+POST /sqli-labs/Less-11/ HTTP/1.1
+Host: 192.168.20.178
+Content-Length: 30
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://192.168.20.178
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://192.168.20.178/sqli-labs/Less-11/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh-TW;q=0.9,zh;q=0.8,en-US;q=0.7,en;q=0.6
+Connection: close
+
+uname=Dhakkan&passwd=1&submit=Submit
