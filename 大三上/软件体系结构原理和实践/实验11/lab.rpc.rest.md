@@ -186,7 +186,8 @@
 - 参考 [Apifox](https://www.apifox.cn/web/project/977285)
   - https://github.com/gothinkster/realworld/tree/master/api
 - 注意`RMM`，满足`成熟度2`以上
-4. `薪水支付系统` REST API 设计与实现  （选做）
+- GraphQL实现大作业接口（选做）
+4. `薪水支付系统` REST API / GraphQL 设计与实现 ，微服务实现 （选做）
 - 选做项目向老师申请单独检查，期末加分
 
 5. 教材IPC 六种机制，各找一个例子，语言不限 （选做）

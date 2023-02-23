@@ -1,0 +1,46 @@
+#cnblogs_post_body h1,
+#cnblogs_post_body h2,
+#cnblogs_post_body h3
+{
+     margin: 10px 0px;
+     padding: 2px 2px 5px 2px;
+     border-bottom: solid 1px #006600;
+     text-align: left;
+     text-indent: 0px;
+}
+
+#cnblogs_post_body h1
+{
+     font-family: Georgia, serif;
+     font-size: 20px;
+     font-weight: bold;
+     color: #006600;
+     letter-spacing: 1.4px;
+}
+
+#cnblogs_post_body h2
+{
+     font-family: Georgia, serif;
+     font-size: 18px;
+     font-weight: normal;
+     letter-spacing: 1.2px;
+     color: #009900;
+}
+
+#cnblogs_post_body h3
+{
+     font-family: Georgia, serif;
+     font-size: 16px;
+     font-weight: normal;
+     letter-spacing: 1.2px;
+     color: #009900;
+}
+
+#cnblogs_post_body {
+    font-size: 14px;
+}
+
+#cnblogs_post_body li {
+    margin-top:5px;
+    margin-bottom:5px;
+}
